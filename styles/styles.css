@@ -5,15 +5,18 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1170px;
 }
 
-.menu{
+.menu a{
     display: inline-flex;
 padding: 10px 0px;
 justify-content: center;
 align-items: center;
 gap: 44px;
+text-decoration: none;
 }
 
 .agency-section{
@@ -31,7 +34,9 @@ margin-right: auto;
 color: #FFF;
 font-family: Mulish;
 font-size: 64px;
-font-weight: 800;}
+font-weight: 800;
+padding: 100px 280px 0px 280px;
+}
 
 .paragraph-title{
     color: #FFF;
@@ -39,6 +44,7 @@ text-align: center;
 font-family: Mulish;
 font-size: 16px;
 line-height: 26px;
+padding-bottom: 10px;
 }
 .input-item{
 border-radius: 8px;
@@ -62,16 +68,131 @@ gap: 24px;
 }
 .popular-trips{
     width: 1170px;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     margin-left: auto;
    margin-right: auto;
-   padding-top: 50px;
+   padding-top: 55px;
+   gap: 100px;
 
+}
+.t-trips{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.full-dtls{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+color: #FFF;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+.list-info{
+text-align: left;
+}
+.some-info{
+    gap: 40px;
+}
+.p-style{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.place-choice{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 55px;
+}
+.c-head{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.c-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+/* padding-top: 24px; */
+padding-bottom: 28px;
+}
+.maldives-indonesia{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.srilanka-kashmir{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.bd-bandaban{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.our-service{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+.why-choice{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+.price{
+   display: flex;
+   justify-content: center;
+   border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+width: 30%;
+margin: 0 auto;
+margin-top: 55px;
+
+}
+
+.hotel{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.map{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.hotel-service{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 .footer-item{
     text-align: center;
     padding-top: 50px;
+    background: rgba(19, 19, 24, 0.05);
+/* height: 502px; */
+padding: 110px 0px 110px 0px;
 }
 .save{
     background-image: url(../Images/Rectangle\ 8\ \(1\).png);
@@ -87,3 +208,4 @@ height: 422px;
     margin-left: auto;
     margin-right: auto;
 }
+
