@@ -9,14 +9,28 @@
     margin: 0 auto;
     width: 1170px;
 }
-
+.komla{
+    color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+}
 .menu a{
-    display: inline-flex;
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+}
+
+.menu{
+    display:inline-flex;
 padding: 10px 0px;
 justify-content: center;
 align-items: center;
 gap: 44px;
-text-decoration: none;
 }
 
 .agency-section{
@@ -74,7 +88,11 @@ gap: 24px;
    margin-right: auto;
    padding-top: 55px;
    gap: 100px;
+   align-items: center;
 
+}
+.gallaxy-trips{
+    padding-bottom: 50px;
 }
 .t-trips{
     color: #131318;
@@ -131,6 +149,7 @@ line-height: 26px;
 /* padding-top: 24px; */
 padding-bottom: 28px;
 }
+
 .maldives-indonesia{
     display: flex;
     justify-content: center;
@@ -169,24 +188,111 @@ background: rgba(233, 68, 68, 0.05);
 width: 30%;
 margin: 0 auto;
 margin-top: 55px;
+padding: 32px 55px 32px 32px;
 
 }
-
 .hotel{
     border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
+padding: 32px 55px 32px 32px;
 }
 .map{
     border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
+padding: 32px 55px 32px 32px;
 }
 .hotel-service{
     display: flex;
     gap: 24px;
     justify-content: center;
 }
+.news-l{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+}
+.n-paragraph{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.h-line2{
+    width: 106%;
+}
+.news-section{
+border: 1px solid #FF5400;
+padding: 40px 50px;
+border-radius: 16px;
+}
+
+.enter-name input{
+width: 100%;
+padding: 12px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding-bottom: 16px;
+border: none;
+outline: none;
+color: rgba(19, 19, 24, 0.30);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
+.enter-mail input{
+    width: 100%;
+padding: 12px;
+margin-top: 16px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+padding-bottom: 16px;
+border: none;
+outline: none;
+color: rgba(19, 19, 24, 0.30);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
+.subscribe{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+width: 100%;
+padding: 12px;
+margin-top: 16px;
+}
+.subscribe button{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+background-color:#FF5400;
+border: none;
+}
+.a-web{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 400;
+}
+.b-discount{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+
 .footer-item{
     text-align: center;
     padding-top: 50px;
@@ -194,18 +300,57 @@ background: rgba(41, 206, 246, 0.05);
 /* height: 502px; */
 padding: 110px 0px 110px 0px;
 }
-.save{
-    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
-    width: 672px;
-height: 422px;
+.save-70{
+    position: relative;
+}
+.upto-70{
+    position: absolute;
+    border-radius: 16px;
+background: #FF5400;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+text-align: center;
+right: 15px;
+bottom: 55px;
+padding-bottom: 30px;
+
 }
 .offer{
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    /* justify-content: space-around; */
+    gap:24px;
     width: 1270px;
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    /* padding-bottom: 60px; */
 }
-
+.f-section{
+    padding-top: 50px;
+}
+.h-line{
+    width: 50%;
+}
+.komla2{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+.f-last{
+    color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+.h-padding{
+    padding-bottom: 30px;
+}
+.i-padding{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.f-padding{
+    padding-top: 30px;
+}
