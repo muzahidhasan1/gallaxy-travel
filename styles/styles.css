@@ -1,6 +1,15 @@
 .agency-name{
     display: flex;
+    gap: 10px;
     
+}
+.t-name{
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+.travel{
+    color: #FF5400;
 }
 
 .navbar{
@@ -8,6 +17,9 @@
     justify-content: space-between;
     margin: 0 auto;
     width: 1170px;
+}
+.menu-icon{
+    display: none;
 }
 .komla{
     color: #FF5400;
@@ -34,14 +46,14 @@ gap: 44px;
 }
 
 .agency-section{
-background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-background: no-repea;
+background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
 width: 1170px;
 height: 500px;
 text-align: center;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
+border-radius: 16px;
 }
 
 .explore-title{
@@ -57,7 +69,6 @@ padding: 100px 280px 0px 280px;
 text-align: center;
 font-family: Mulish;
 font-size: 16px;
-line-height: 26px;
 padding-bottom: 10px;
 }
 .input-item{
@@ -72,13 +83,31 @@ align-items: flex-start;
 gap: 24px;
 }
 .input-item input{
-    padding: 20px;
+    padding: 15px;
     width: 100px;
     border: none;
 }
 .input-container{
     background-color: #FFF;
-    padding:0px 5px 0px 5px ;
+    padding:0px 10px 0px 15px ;
+    border-radius: 10px;
+}
+.heading-btn{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    background-color: #FF5400;
+    color: white;
+
+}
+.input-button{
+    background-color: #FF5400;
+    padding:0px 10px 0px 15px ;
+    border-radius: 10px;
+
+}
+.input-button i{
+    color: white;
 }
 .popular-trips{
     width: 1170px;
@@ -222,7 +251,7 @@ font-weight: 400;
 line-height: 26px;
 }
 .h-line2{
-    width: 106%;
+    width: 100%;
 }
 .news-section{
 border: 1px solid #FF5400;
@@ -249,7 +278,6 @@ padding: 12px;
 margin-top: 16px;
 border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
-padding-bottom: 16px;
 border: none;
 outline: none;
 color: rgba(19, 19, 24, 0.30);
@@ -307,13 +335,11 @@ padding: 110px 0px 110px 0px;
     position: absolute;
     border-radius: 16px;
 background: #FF5400;
-width: 324px;
-height: 120px;
 transform: rotate(-19.628deg);
 text-align: center;
 right: 15px;
 bottom: 55px;
-padding-bottom: 30px;
+padding:0px 30px;
 
 }
 .offer{
@@ -354,3 +380,94 @@ font-weight: 800;
 .f-padding{
     padding-top: 30px;
 }
+
+@media screen and (max-width:600px){
+    .menu{
+        display: none;
+       
+    }
+    .menu-icon{
+        display: block;
+    }
+    .agency-section{
+        width:100%;
+    }
+    .explore-title{
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+    .paragraph-title{
+        font-size:16px;
+        padding: 10px;
+       
+    }
+    .input-type{
+        width: 100%;
+    }
+    .input-item{
+        flex-direction: column;
+    }
+    .popular-trips{
+        flex-direction: column;
+        width: 100%;
+    }
+    .trip-img{
+        width: 100%;
+    }
+    .maldives-indonesia{
+        flex-direction: column;
+    }
+    .srilanka-kashmir{
+        flex-direction: column;
+    }
+    .bd-bandaban{
+        flex-direction: column;
+    }
+    .pic-bg img{
+        width: 100%;
+    }
+    .hotel-service{
+        flex-direction: column;
+    }
+    .price{
+        flex-direction: column;
+        width: 75%;
+    }
+    .offer{
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .news-section{
+        width: 90%;
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+    .save-70 img{
+        width: 100%;
+    }
+    footer{
+       
+        width: 100%;
+    }
+    body{
+        
+        margin: 0px auto;
+        padding: 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .enter-name input{
+        width:80%;
+    }
+    .enter-mail input{
+        width:80%;
+    }
+    .subscribe{
+        width:80%;
+    }
+    .upto-70{
+       
+    }
+} 
